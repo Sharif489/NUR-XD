@@ -76,35 +76,35 @@ samsung_models = random.choice(['samsung s22 s','galaxy s7','galaxy s8','galaxy 
 #━━━━━━━━━━━[ FILE-UA] ━━━━━━━━━━━ 
 
 def S1():
-    en = random.choice(['en_US','en_GB','en_PK','ru_RU','de_DE','en_BD','en_IN','en_AF'])
-    application_version = str(random.randint(111,444))+'.0.0.'+str(random.randrange(9,49))+'.'+str(random.randint(11,33))
-    ver = str(random.randrange(30,443))
-    app_version = str(random.randint(111,444))+'.0.0.'+str(random.randrange(9,49))+'.'+str(random.randint(11,33))
-    app_ver_code=str(random.randint(000000000,999999999))
-    application_version_code=str(random.randint(111111111,999999999))
-    fbap = random.choice(['414.0.0.30.113','398.0.0.21.105','274.0.0.22.117','316.4.0.15.120','385.0.0.32.114','415.0.0.34.107','414.0.0.30.113','357.0.0.13.112','415.0.0.34.107','408.1.0.16.113','412.0.0.22.115','240.0.0.38.121','414.0.0.30.113','241.0.0.43.15'])
-    fbcr = "random.choice(['o2 - de', 'Verizon - us', 'Vodafone - uk','null','en_GB','en_US','en_PK','IND airtel','Nepal Telecom'])}"
-    s = "[FBAN/FB4A;FBAV/"+str(random.randint(111,999))+'.0.0.'+str(random.randrange(9,99))+str(random.randint(111,999)) +";FBBV/"+str(random.randint(111111111,999999999))
-    e = '[FBAN/FB4A;FBAV/22.0.0.52.200;FBBV/65289853;FBDM/{density=2.75,width=720,height=1612};FBLC/en_US;FBRV/65289853;FBCR/Bkash;FBMF/Xiaomi;FBBD/Redmi;FBPN/com.facebook.katana;FBDV/M1803E6I;FBSV/4.0.0;FBOP/19;FBCA/arm64-v8a:null;]'
-    ua = s + e
-    #print(ua)
-    return ua 
+	en = random.choice(['en_US','en_GB','en_PK','ru_RU','de_DE','en_BD','en_IN','en_AF'])
+	application_version = str(random.randint(111,444))+'.0.0.'+str(random.randrange(9,49))+'.'+str(random.randint(11,33))
+	ver = str(random.randrange(30,443))
+	app_version = str(random.randint(111,444))+'.0.0.'+str(random.randrange(9,49))+'.'+str(random.randint(11,33))
+	app_ver_code=str(random.randint(000000000,999999999))
+	application_version_code=str(random.randint(111111111,999999999))
+	fbap = random.choice(['414.0.0.30.113','398.0.0.21.105','274.0.0.22.117','316.4.0.15.120','385.0.0.32.114','415.0.0.34.107','414.0.0.30.113','357.0.0.13.112','415.0.0.34.107','408.1.0.16.113','412.0.0.22.115','240.0.0.38.121','414.0.0.30.113','241.0.0.43.15'])
+	fbcr = "random.choice(['o2 - de', 'Verizon - us', 'Vodafone - uk','null','en_GB','en_US','en_PK','IND airtel','Nepal Telecom'])}"
+	s = "[FBAN/FB4A;FBAV/"+str(random.randint(111,999))+'.0.0.'+str(random.randrange(9,99))+str(random.randint(111,999)) +";FBBV/"+str(random.randint(111111111,999999999))
+	e = '[FBAN/FB4A;FBAV/22.0.0.52.200;FBBV/65289853;FBDM/{density=2.75,width=720,height=1612};FBLC/en_US;FBRV/65289853;FBCR/Bkash;FBMF/Xiaomi;FBBD/Redmi;FBPN/com.facebook.katana;FBDV/M1803E6I;FBSV/4.0.0;FBOP/19;FBCA/arm64-v8a:null;]'
+	ua = s + e
+	#print(ua)
+	return ua 
 
-    
+	
 def S2():
-    en = random.choice(['en_US','en_GB','en_PK','ru_RU','de_DE','en_BD','en_IN','en_AF'])
-    application_version = str(random.randint(111,444))+'.0.0.'+str(random.randrange(9,49))+'.'+str(random.randint(11,33))
-    ver = str(random.randrange(30,443))
-    app_version = str(random.randint(111,444))+'.0.0.'+str(random.randrange(9,49))+'.'+str(random.randint(11,33))
-    app_ver_code=str(random.randint(000000000,999999999))
-    application_version_code=str(random.randint(111111111,999999999))
-    fbap = random.choice(['414.0.0.30.113','398.0.0.21.105','274.0.0.22.117','316.4.0.15.120','385.0.0.32.114','415.0.0.34.107','414.0.0.30.113','357.0.0.13.112','415.0.0.34.107','408.1.0.16.113','412.0.0.22.115','240.0.0.38.121','414.0.0.30.113','241.0.0.43.15'])
-    fbcr = "random.choice(['o2 - de', 'Verizon - us', 'Vodafone - uk','null','en_GB','en_US','en_PK','IND airtel','Nepal Telecom'])}"
-    s = "[FBAN/FB4A;FBAV/"+str(random.randint(111,999))+'.0.0.'+str(random.randrange(9,99))+str(random.randint(111,999)) +";FBBV/"+str(random.randint(111111111,999999999))
-    e = '[FBAN/FB4A;FBAV/259.0.0.36.115;FBBV/200359555;FBDM/{density=3.0,width=1080,height=2016};FBLC/nb_NO;FBRV/201364573;FBCR/Grameenphone;FBMF/Sony;FBBD/Sony;FBPN/com.facebook.katana;FBDV/H8266;FBSV/10;FBOP/19;FBCA/arm64-v8a:;]' 
-    ua = s + e
-    #print(ua)
-    return ua 
+	en = random.choice(['en_US','en_GB','en_PK','ru_RU','de_DE','en_BD','en_IN','en_AF'])
+	application_version = str(random.randint(111,444))+'.0.0.'+str(random.randrange(9,49))+'.'+str(random.randint(11,33))
+	ver = str(random.randrange(30,443))
+	app_version = str(random.randint(111,444))+'.0.0.'+str(random.randrange(9,49))+'.'+str(random.randint(11,33))
+	app_ver_code=str(random.randint(000000000,999999999))
+	application_version_code=str(random.randint(111111111,999999999))
+	fbap = random.choice(['414.0.0.30.113','398.0.0.21.105','274.0.0.22.117','316.4.0.15.120','385.0.0.32.114','415.0.0.34.107','414.0.0.30.113','357.0.0.13.112','415.0.0.34.107','408.1.0.16.113','412.0.0.22.115','240.0.0.38.121','414.0.0.30.113','241.0.0.43.15'])
+	fbcr = "random.choice(['o2 - de', 'Verizon - us', 'Vodafone - uk','null','en_GB','en_US','en_PK','IND airtel','Nepal Telecom'])}"
+	s = "[FBAN/FB4A;FBAV/"+str(random.randint(111,999))+'.0.0.'+str(random.randrange(9,99))+str(random.randint(111,999)) +";FBBV/"+str(random.randint(111111111,999999999))
+	e = '[FBAN/FB4A;FBAV/394.0.0.17.80;FBBV/49449245;FBDM/{density=3.0,width=1920,height=1080};FBLC/en_US;FBRV/85840713;FBCR/Robi;FBMF/Infinix;FBBD/Infinix;FBPN/com.facebook.katana;FBDV/Infinix X6819;FBSV/12;FBOP/1;FBCA/x86:armeabi-v7a;]' 
+	ua = s + e
+	#print(ua)
+	return ua 
 
 #__________________[ SYS ]__________________#
 os.system('xdg-open https://www.facebook.com/MR.ADNAN.404')
@@ -166,7 +166,7 @@ def menu():
     if select =='1':
         _file_()
     elif select =='2':
-        _file_()
+    	_file_()
     elif select =='3':
         os.system('xdg-open https://chat.whatsapp.com/Bd8RQc6VoKxLOO9ljc5Raj');menu()
     elif select =='4':
